@@ -1,0 +1,21 @@
+{
+    "name": "kklaus",
+    "description": "Kyber Klaus",
+    "version": "1.0.0",
+
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/kklaus/lindat-common.git"
+    },
+
+    "authors": [
+    ],
+
+    "license": "MIT",
+
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components"
+    ]
+}

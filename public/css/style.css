@@ -1,0 +1,94 @@
+
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+/* ============================ */
+
+.bubble {
+    margin-bottom: 50px !important;
+    background-color: red;
+}
+
+.text-fragment {
+    width: 60%;
+}
+
+/* ============================ */
+
+.person {
+    margin-right: -100px;
+}
+
+.person div {
+    float: right;
+    border-color: #075698 !important;
+    right: 100px;
+}
+.person div:before, .person div:after {
+    border-color: transparent #075698 !important;
+}
+.person .icon {
+    margin-right: -120px;
+    margin-top: -20px;
+    margin-bottom: -50px;
+    height: 60px;
+    content: url(/images/grilled.png);
+}
+.person .icon-backoff {
+    margin-right: -120px;
+    margin-top: -20px;
+    margin-bottom: -50px;
+    height: 60px;
+    content: url(/images/backoff.jpg);
+}
+
+
+
+.person .timestamp {
+    top: -20px;
+    right: 0;
+}
+
+/* ============================ */
+
+.interviewer {
+    margin-left: -100px;
+}
+
+.interviewer div {
+    float: left;
+    border-color: #c81e2b !important;
+    left: 100px;
+}
+
+.interviewer div:before, .interviewer div:after {
+    border-color: transparent #c81e2b !important;
+}
+
+.interviewer .icon {
+    margin-left: -100px;
+    margin-bottom: -50px;
+    height: 60px;
+    content: url(https://cdn3.iconfinder.com/data/icons/business-pack-3/512/12-512.png);
+}
+
+.interviewer .timestamp {
+    top: -20px;
+    left: 0;
+}
+
+/* ============================ */
+
+.timestamp {
+    font-size: 10px;
+    position: absolute;
+    padding: 3px;
+}
+
+#online {
+    margin-right: -10px;
+    font-size: 12px;
+    opacity: 0.8;
+}
