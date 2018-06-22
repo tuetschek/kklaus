@@ -59,7 +59,7 @@ var kk = {
 
         // ask
         jQuery.ajax({
-            url: '/chat/get',
+            url: './chat/get',
             data: to_send,
             type: 'POST',
             crossDomain: true,
@@ -86,7 +86,7 @@ var kk = {
     version: function( ftor_success, ftor_error ) {
         // ask
         jQuery.ajax({
-            url: '/version',
+            url: './version',
             type: 'GET',
             crossDomain: true,
             success: function (data) {
